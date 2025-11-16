@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Shortcut icon" href="" />
+    <title>Ayzal Home Kitchen</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div class="whatsapp-con">
+            <a href="https://wa.me/+923292002467" target="_blank"><i
+                    class="fa-brands fa-whatsapp" id="whats"></i></a>
+        </div>
+        <header class="header">
+            <div class="logo-div">
+                <img src="./assets/img/images.jpg" alt="Ayzal Home Kitchen"
+                    class="logo">
+            </div>
+
+            <div class="menu-btn" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="h-link" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+
+            <div class="social-icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </header>
+        <div id="body-div">
+            <div id="home" class="section">
+                <div id="home-left-div">
+                    <h1 style="text-align: center;">
+                        👋 Welcome to Ayzal Kitchen!<br />
+                        Savor the flavors of home-cooked delight.
+                    </h1>
+                </div>
+                <div id="home-right-div">
+                    <img src="./assets/img/Dishies.jpg" alt="Dishies"
+                        id="dishies">
+                </div>
+            </div>
+            <hr />
+            <div id="about" class="section">
+                <div id="about-top-div">
+                    <h1>
+                        About Us
+                    </h1>
+                </div>
+                <div id="about-bottom-div">
+                    <p id="about-p">
+                        Ayzal Home Kitchen is a place where we cook with love
+                        and care. We believe in serving fresh, homemade food
+                        that tastes just like home. Our goal is to provide
+                        delicious and healthy meals made with quality
+                        ingredients. Whether it’s for your family or special
+                        occasions, Ayzal Home Kitchen brings the warmth of
+                        homemade flavors to your table.
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <div id="menu" class="section">
+                <div id="menu-top-div">
+                    <h1>
+                        Our Menu
+                    </h1>
+                </div>
+                <div id="menu-bottom-div">
+                    <ul class="Categories" id="biryani">
+                        <h1>Biryani</h1>
+                        <li>
+                            <div>
+                                <p>Beef Biryani</p>
+                                <p>Chicken Biryani</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="Categories" id="pulao">
+                        <h1>Pulao</h1>
+                        <li>
+                            <div>
+                                <p>Beef Pualo</p>
+                                <p>Chicken Pulao</p>
+                            </div>
+                            <div></div>
+                        </li>
+                    </ul>
+                    <ul class="Categories" id="bb.q">
+                        <h1>Bar B.Q</h1>
+                        <li>
+                            <div>
+                                <p>Beef Shami Kabab</p>
+                                <p>Chicken Shami Kabab</p>
+                            </div>
+                            <div></div>
+                        </li>
+                    </ul>
+                    <ul class="Categories" id="chinies">
+                        <h1>Chinies</h1>
+                        <li>
+                            <div>
+                                <p>Chinies Rice</p>
+                                <p>Chicken Manchurian</p>
+                            </div>
+                            <div></div>
+                        </li>
+                    </ul>
+                    <ul class="Categories" id="desert">
+                        <h1>Desert</h1>
+                        <li>
+                            <div>
+                                <p>Zarda Motia</p>
+                                <p>Suji Ka Halwa</p>
+                            </div>
+                            <div></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <div id="contact" class="section">
+                <div id="contact-top-div">
+                    <h1>
+                        Contact Us
+                    </h1>
+                </div>
+                <div id="contact-bottom-div">
+                    <div id="contat-form-div">
+                        <div class="contact-container">
+                            <h2 style="color: black; text-align: center;">
+                                Contact Us</h2>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name"
+                                        placeholder="Enter your name">
+                                    <div class="error" id="nameError"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email"
+                                        placeholder="Enter your email">
+                                    <div class="error" id="emailError"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" rows="4"
+                                        placeholder="Write your message..."></textarea>
+                                    <div class="error" id="messageError"></div>
+                                </div>
+
+                                <button type="submit">Send Message</button>
+                            </form>
+                            <div class="success-message" id="successMessage">✅
+                                Your message has been
+                                sent successfully!</div>
+                        </div>
+                    </div>
+                    <div id="contact-map-div">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d217.46441073618448!2d67.18012561468579!3d24.834090297792734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1763134945895!5m2!1sen!2s"
+                            width="600" height="450"
+                            style="border-radius: 20px;" allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            id="map"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <div id="flogo-div">
+                <img src="./assets/img/images.jpg" alt="Ayzal Home Kitchen"
+                    id="f-logo" class="logo">
+                <p style="width: 300px; margin-top: 40px; @media only screen and (max-width: 950px) {
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 0px;
+                }">
+                    Ayzal Home Kitchen — bringing you comfort, flavor, and the
+                    warmth of home with every dish we make.
+                    <br>Made fresh, made with love. 
+                </p>
+            </div>
+            <ul id="f-link">
+                <h1>
+                    Quik Links
+                </h1>
+                <li class="f-li"><a href="#" class="f-li">Home</a></li>
+                <li class="f-li"><a href="#" class="f-li">About Us</a></li>
+                <li class="f-li"><a href="#" class="f-li">Menu</a></li>
+                <li class="f-li"><a href="#" class="f-li">Contact Us</a></li>
+            </ul>
+            <ul>
+                <h1 id="f-contact">
+                    Contact Us
+                </h1>
+                <li class="f-li">Address : Plot 2/4 Landhi No </li>
+                <li class="f-li">Phone : 031878889</li>
+                <li class="f-li">admin@gmail.com</li>
+            </ul>
+            <div id="f-socail-div">
+                <h1 id="f-socail-link">
+                    Socail Links
+                </h1>
+                <a href="">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </footer>
+        <button id="scrolltotop">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+
+        <div
+            style="width: 100%; text-align: center; background-color: black; border-top: 1px solid white; padding: 20px;">
+            <p>&copy; 2025 Ayzal Home Kitchen.All Right Reserved</p>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+    <script>
+        (function () {
+            emailjs.init("l7SFxkcy7fO8u-3zh"); // 🔹 Replace with your EmailJS Public Key
+        })();
+
+        const form = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            // Validation
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            // Send email using EmailJS
+            emailjs.send('service_dspmjii', "template_i2scs33", {
+                name: name,
+                email: email,
+                message: message
+            })
+                .then(() => {
+                    successMessage.style.display = 'block';
+                    form.reset();
+                    setTimeout(() => successMessage.style.display = 'none', 3000);
+                })
+                .catch((error) => {
+                    alert('Error sending message. Try again later.');
+                    console.error(error);
+                });
+        });
+    </script>
+</body>
+
+</html>
